@@ -1,0 +1,10 @@
+input_signal = create_input_signal();
+output_signal = create_output_signal();
+figure;
+plot(t, input_signal, 'c', 'LineWidth', 5);
+hold on;
+plot(t, output_signal, 'm', 'LineWidth', 3);
+title('Output Signal of the System');
+xlabel('Time');
+ylabel('Magnitude');
+grid off;
